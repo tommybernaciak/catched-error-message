@@ -12,7 +12,7 @@ try {
 }
 ```
 
-But TypeScript defaults error type to `unknown`.` And this is actually correct, since you can throw literally anything:
+But TypeScript defaults error type to `unknown`. And this is actually correct, since you can throw literally anything:
 
 ```typescript
 throw 'messgae'
