@@ -1,4 +1,4 @@
-# get-error-message
+# catched-error-message
 
 ## Why
 

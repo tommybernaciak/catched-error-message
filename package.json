@@ -1,12 +1,25 @@
 {
-  "name": "get-error-message",
-  "version": "1.0.0",
+  "name": "catched-error-message",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommybernaciak/catched-error-message.git"
+  },
+  "version": "0.0.1",
   "description": "helper method to get message from catched error",
   "author": "Tommy Bernaciak",
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.15.1"
   },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "typescript",
+    "error",
+    "message",
+    "catch"
+  ],
   "type": "module",
   "source": "src/index.ts",
   "exports": {
