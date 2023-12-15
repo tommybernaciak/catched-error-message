@@ -1,5 +1,7 @@
 # catched-error-message
 
+`npm i catched-error-message`
+
 ## Why
 
 Because you would like to run code as below:
