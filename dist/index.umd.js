@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e||self).getErrorMessage={})}(this,function(e){e.getErrorMessage=function(e){return function(e){if("object"==typeof(n=e)&&null!==n&&"message"in n&&"string"==typeof n.message)return e;var n;try{return new Error(JSON.stringify(e))}catch(n){return new Error(String(e))}}(e).message}});
+//# sourceMappingURL=index.umd.js.map

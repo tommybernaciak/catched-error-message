@@ -1,0 +1,25 @@
+{
+  "name": "get-error-message",
+  "version": "1.0.0",
+  "description": "helper method to get message from catched error",
+  "author": "Tommy Bernaciak",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.esm.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  }
+}
